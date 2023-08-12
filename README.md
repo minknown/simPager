@@ -6,11 +6,11 @@
 2：定义一个容器  
 3：在html代码中初始化，设置总个数，每页个数等。  
 4：在toPage.js上设置切换页面事件，方法函数名为change_content()。  
-  __如果切换页面代码进行跳转：您可以通过current_page变量获取新的页面代码，并于location.href进行后续跳转。  __
-  如果切换页面代码进行AJAX动态加载：可以通过$(obj_box).children('.page_content').html(新的内容)定义新的页面内容。  
+  *如果切换页面代码进行跳转：您可以通过current_page变量获取新的页面代码，并于location.href进行后续跳转。*  
+  *如果切换页面代码进行AJAX动态加载：可以通过$(obj_box).children('.page_content').html(新的内容)定义新的页面内容。*   
 ****
 ## 要点：  
-1:关于location.href地址拦截和获取页面参数，可查看cuto.js中的代码  
+关于location.href地址拦截和获取页面参数，可查看cuto.js中的代码  
 ****
 ## 这是效果图：  
 ![image](readme.png)
